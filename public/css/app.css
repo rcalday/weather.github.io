@@ -1,0 +1,33 @@
+.app-main-bg {
+  background-image: url("/public/images/bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.app .card-bg {
+  background: rgba(255, 255, 255, 0.32) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 0 !important;
+  border-radius: 1rem;
+}
+.app .card-1st-child {
+  background: rgba(3, 3, 3, 0.42) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  backdrop-filter: blur(24px) !important;
+  border: 0 !important;
+  border-radius: 1rem;
+}
+.app .card-2nd-child {
+  background: rgba(255, 255, 255, 0.42) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  backdrop-filter: blur(24px) !important;
+  border: 0 !important;
+  border-radius: 1rem;
+}
+.app .textbox {
+  border-radius: 1rem;
+}
+.app .search {
+  border-radius: 0 10px 10px 0;
+}
